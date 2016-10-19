@@ -1,0 +1,896 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .swiper-container, .box-1-1, .box-1-2, .box-2-1, .box-3-1, .box-5-1, .box-4-1, .box-6-1, .box-6-15 div {
+  width: 100%;
+  height: 100%; }
+
+.swiper-container {
+  margin: 0 auto;
+  max-width: 20rem; }
+
+.music-c {
+  position: absolute;
+  background: url("../images/music.png") no-repeat;
+  background-size: cover;
+  width: 0.9375rem;
+  height: 0.90625rem;
+  right: 0.9375rem;
+  top: 0.9375rem;
+  z-index: 3;
+  animation: cir 1s linear infinite; }
+
+.music-note {
+  position: absolute;
+  background: url("../images/music.gif") no-repeat;
+  background-size: cover;
+  width: 2.1875rem;
+  height: 2.1875rem;
+  right: 0rem;
+  top: 0rem;
+  z-index: 2; }
+
+.swiper-slide:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 0.75rem;
+  height: 0.5625rem;
+  background: url(../images/arrow.png) no-repeat;
+  bottom: 0.625rem;
+  -webkit-animation: showUpDown 2s linear infinite;
+  -o-animation: showUpDown 2s linear infinite;
+  animation: showUpDown 2s linear infinite;
+  z-index: 100; }
+
+@keyframes showUpDown {
+  from {
+    bottom: 0.625rem;
+    opacity: 1; }
+  to {
+    bottom: 1.09375rem;
+    opacity: 0; } }
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+  width: 100%;
+  height: 100%; }
+
+.box-1-1 {
+  position: absolute;
+  background: url(../images/bg1.png) center center no-repeat;
+  background-size: cover;
+  -webkit-animation: goBack 3s linear;
+  -o-animation: goBack 3s linear;
+  animation: goBack 3s linear; }
+
+@keyframes goBack {
+  from {
+    background-size: 150%,150%;
+    width: 140%;
+    height: 148%; }
+  to {
+    background-size: 105%,105%;
+    width: 100%;
+    height: 100%; } }
+.box-1-2 {
+  position: absolute;
+  left: 0;
+  top: -3.7%;
+  width: 4.375rem;
+  height: 3.4375rem; }
+
+.box-1-2 {
+  background: url(../images/yangguang.png) no-repeat;
+  background-size: 100%,100%; }
+
+.box-1-3 {
+  position: absolute;
+  left: 0;
+  top: 26.19%;
+  width: 8.71875rem;
+  height: 11.35938rem;
+  background: url(../images/bing.png) no-repeat;
+  background-size: cover; }
+
+.box-1-4 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 4.5rem;
+  height: 5.03125rem;
+  background: url(../images/beizi.png) no-repeat;
+  background-size: cover; }
+
+.box-1-5 {
+  position: absolute;
+  left: 34%;
+  top: 36%;
+  width: 3.125rem;
+  height: 5.34375rem;
+  background: url(../images/beizi2.png) no-repeat;
+  background-size: cover; }
+
+.box-1-6 {
+  position: absolute;
+  left: 12%;
+  top: 37.5%;
+  width: 2.92188rem;
+  height: 4.67188rem;
+  background: url(../images/beizi3.png) no-repeat;
+  background-size: cover; }
+
+.box-1-7 {
+  position: absolute;
+  left: 39.5%;
+  top: 50.19%;
+  width: 5.07813rem;
+  height: 3.875rem;
+  background: url(../images/beizi4.png) no-repeat;
+  background-size: cover; }
+
+.box-1-8 {
+  position: absolute;
+  left: 11.56%;
+  top: 56.84%;
+  width: 7.04688rem;
+  height: 7.17188rem;
+  background: url(../images/baifenbai.png) no-repeat;
+  background-size: cover; }
+
+.box-1-9 {
+  position: absolute;
+  left: 74.68%;
+  top: 89.68%;
+  width: 2.48438rem;
+  height: 1.5rem;
+  background: url(../images/fish.png) no-repeat;
+  background-size: cover; }
+
+.box-1-10 {
+  position: absolute;
+  left: 82.5%;
+  top: 61.8%;
+  width: 1.15625rem;
+  height: 0.625rem;
+  background: url(../images/fish2.png) no-repeat;
+  background-size: cover; }
+
+.box-1-11 {
+  position: absolute;
+  left: 6.1%;
+  top: 91.76%;
+  width: 1.1875rem;
+  height: 0.71875rem;
+  background: url(../images/fish3.png) no-repeat;
+  background-size: cover; }
+
+.box-1-12 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10rem;
+  height: 14.6875rem;
+  background: url(../images/bing2.png) center center no-repeat;
+  background-size: 100%,100%;
+  webkit-animation: zoomIn 3s 4.5s 1 both,flash 4s 7.5s 1 forwards;
+  -moz-animation: zoomIn 3s 4.5s 1 both,flash 4s 7.5s 1 forwards;
+  animation: zoomIn 3s 4.5s 1 both,flash 4s 7.5s 1 forwards; }
+
+.box-1-13 {
+  position: absolute;
+  left: 0%;
+  top: 89.18%;
+  width: 0.64063rem;
+  height: 0.625rem;
+  background: url(../images/fish4.png) no-repeat;
+  background-size: cover; }
+
+.box-1-14 {
+  font-weight: 700;
+  position: absolute;
+  left: 18%;
+  top: 13%;
+  width: 7.0625rem;
+  height: 0.65625rem;
+  text-align: center;
+  line-height: 21px;
+  color: #fff;
+  font-size: 21px;
+  text-indent: -35px; }
+
+.box-1-15 {
+  font-weight: 700;
+  position: absolute;
+  left: 11.56%;
+  top: 17.88%;
+  width: 6.90625rem;
+  height: 2.78125rem;
+  background: url(../images/text2.png) no-repeat;
+  background-size: cover; }
+
+.box-1-16 {
+  font-weight: 700;
+  position: absolute;
+  left: 23.92%;
+  top: 56.11%;
+  width: 3.4375rem;
+  height: 5rem;
+  font-size: 5.5rem; }
+  .box-1-16 div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.4375rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center; }
+
+.box-1-17 {
+  font-weight: 700;
+  position: absolute;
+  left: 28.75%;
+  top: 71.43%;
+  width: 5.625rem;
+  height: 1.0625rem; }
+  .box-1-17 div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5.625rem;
+    height: 1.0625rem;
+    line-height: 0.9375rem;
+    text-align: center;
+    font-size: 1rem; }
+
+.swiper-pagination-bullet-active.swiper-pagination-bullet {
+  background: transparent;
+  border: 0.03125rem solid #fff;
+  opacity: .7;
+  width: .2rem;
+  height: .2rem; }
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  background: #f9f9f9;
+  opacity: .3;
+  border: 0.03125rem solid transparent;
+  width: .2rem;
+  height: .2rem; }
+
+.box-2-1 {
+  position: absolute;
+  background: url(../images/bg2.png) center center no-repeat;
+  background-size: cover;
+  -webkit-animation: goBack 3s linear;
+  -o-animation: goBack 3s linear;
+  animation: goBack 3s linear; }
+
+@keyframes goBack {
+  from {
+    background-size: 150%,150%;
+    width: 140%;
+    height: 148%; }
+  to {
+    background-size: 105%,105%;
+    width: 100%;
+    height: 100%; } }
+.box-3-1, .box-5-1 {
+  position: absolute;
+  background: url(../images/bg3.png) center center no-repeat;
+  background-size: cover;
+  -webkit-animation: goBack1 3s linear;
+  -o-animation: goBack1 3s linear;
+  animation: goBack1 3s linear; }
+
+@keyframes goBack1 {
+  from {
+    background-size: 150%,150%;
+    width: 140%;
+    height: 148%; }
+  to {
+    background-size: 105%,105%;
+    width: 100%;
+    height: 100%; } }
+.box-2-2, .box-3-2, .box-5-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 1.5625rem;
+  height: 1.59375rem;
+  background: url(../images/logo2.png) no-repeat;
+  background-size: cover; }
+
+.box-2-3, .box-3-3, .box-5-3 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 3.07813rem;
+  height: 2.75rem;
+  background: url(../images/logo2-1.png) no-repeat;
+  background-size: cover; }
+
+.box-2-4, .box-3-4, .box-5-4, .box-6-4 {
+  position: absolute;
+  left: 0%;
+  top: -1%;
+  width: 7.25rem;
+  height: 3.65625rem;
+  background: url(../images/yangguang2.png) no-repeat;
+  background-size: cover; }
+
+.box-2-5 {
+  position: absolute;
+  left: 22.18%;
+  top: 13.32%;
+  width: 7rem;
+  height: 15rem;
+  background: url(../images/text2-1.png) no-repeat;
+  background-size: cover; }
+
+.box-2-6 {
+  position: absolute;
+  left: 9.375%;
+  top: 80%;
+  width: 4.21875rem;
+  height: 3.48438rem;
+  background: url(../images/pinpai1.png) no-repeat;
+  background-size: cover; }
+
+.box-2-7 {
+  position: absolute;
+  left: 9.375%;
+  top: 64.5%;
+  width: 4.21875rem;
+  height: 2.96875rem;
+  background: url(../images/pinpai2.png) no-repeat;
+  background-size: cover; }
+
+.box-2-8 {
+  position: absolute;
+  left: 9.375%;
+  top: 45.5%;
+  width: 4.21875rem;
+  height: 3.48438rem;
+  background: url(../images/pinpai3.png) no-repeat;
+  background-size: cover; }
+
+.box-2-9 {
+  position: absolute;
+  left: 9.375%;
+  top: 28.7%;
+  width: 4.21875rem;
+  height: 2.98438rem;
+  background: url(../images/pinpai4.png) no-repeat;
+  background-size: cover; }
+
+.box-2-10 {
+  position: absolute;
+  left: 9.375%;
+  top: 12.9%;
+  width: 4.21875rem;
+  height: 2.98438rem;
+  background: url(../images/pinpai5.png) no-repeat;
+  background-size: cover; }
+
+.box-2-11, .box-3-12, .box-5-6 {
+  position: absolute;
+  left: 14.53%;
+  top: 7.75%;
+  width: 2.70313rem;
+  height: 1.4375rem;
+  background: url(../images/pinLogo.png) no-repeat;
+  background-size: cover; }
+
+.box-2-12, .box-5-7 {
+  position: absolute;
+  left: 0.47%;
+  top: 8.88%;
+  width: 5.625rem;
+  height: 0.5625rem;
+  font-size: 0.5rem;
+  text-align: center;
+  -webkit-transform: rotate(343deg);
+  -moz-transform: rotate(343deg);
+  transform: rotate(343deg); }
+
+.box-2-13 {
+  position: absolute;
+  left: 54.6875%;
+  top: 12.502818637424046%;
+  width: 5.625rem;
+  height: 13.625rem;
+  text-align: center; }
+  .box-2-13 div {
+    display: inline-block;
+    width: 5.625rem;
+    height: 0.5625rem;
+    text-align: left; }
+    .box-2-13 div span {
+      display: inline-block;
+      line-height: 12px;
+      width: 4rem;
+      height: 0.375rem;
+      font-size: 0.40625rem;
+      color: #1f4996; }
+
+.box-3-5 {
+  position: absolute;
+  left: 11.33%;
+  top: 9.32%;
+  width: 80.9375%;
+  height: 92.85714285714286%;
+  background: url(../images/text3-1.png) no-repeat;
+  background-size: cover; }
+
+.box-3-6 {
+  position: absolute;
+  left: 18.59375%;
+  top: 86.80555555555556%;
+  width: 17.96875%;
+  height: 11.408730158730158%;
+  background: url(../images/xinpin.png) no-repeat;
+  background-size: cover; }
+
+.box-3-7 {
+  position: absolute;
+  left: 18.59375%;
+  top: 71.92460317460318%;
+  width: 17.96875%;
+  height: 11.408730158730158%;
+  background: url(../images/xinpin2.png) no-repeat;
+  background-size: cover; }
+
+.box-3-8 {
+  position: absolute;
+  left: 18.59375%;
+  top: 57.14285714285714%;
+  width: 17.96875%;
+  height: 11.408730158730158%;
+  background: url(../images/xinpin3.png) no-repeat;
+  background-size: cover; }
+
+.box-3-9 {
+  position: absolute;
+  left: 18.59375%;
+  top: 43.05555555555556%;
+  width: 17.96875%;
+  height: 11.408730158730158%;
+  background: url(../images/xinpin4.png) no-repeat;
+  background-size: cover; }
+
+.box-3-10 {
+  position: absolute;
+  left: 18.59375%;
+  top: 28.47222222222222%;
+  width: 17.96875%;
+  height: 11.408730158730158%;
+  background: url(../images/xinpin5.png) no-repeat;
+  background-size: cover; }
+
+.box-3-11 {
+  position: absolute;
+  left: 18.59375%;
+  top: 13.988095238095239%;
+  width: 17.96875%;
+  height: 11.408730158730158%;
+  background: url(../images/xinpin6.png) no-repeat;
+  background-size: cover; }
+
+.box-3-13 {
+  position: absolute;
+  left: 14.53%;
+  top: 7.75%;
+  width: 2.70313rem;
+  height: 1.4375rem;
+  line-height: 1.4375rem;
+  font-size: 0.5rem;
+  text-align: center;
+  -webkit-transform: rotate(343deg);
+  -moz-transform: rotate(343deg);
+  transform: rotate(343deg); }
+
+.box-3-14 {
+  position: absolute;
+  width: 51.24999999999999%;
+  height: 13.690476190476192%;
+  left: 38.83523941040039%;
+  top: 11.80781712607732%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-3-15 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 43.43839645385742%;
+  top: 12.799308413550966%; }
+
+.box-3-16 {
+  position: absolute;
+  width: 51.24999999999999%;
+  height: 13.690476190476192%;
+  left: 38.83523941040039%;
+  top: 26.58730764237661%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-3-17 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 43.43839645385742%;
+  top: 27.57879892985026%; }
+
+.box-3-18 {
+  position: absolute;
+  width: 51.24999999999999%;
+  height: 13.690476190476192%;
+  left: 38.83523941040039%;
+  top: 41.17233336917938%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-3-19 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 43.43839645385742%;
+  top: 42.16382465665303%; }
+
+.box-3-20 {
+  position: absolute;
+  width: 51.24999999999999%;
+  height: 13.690476190476192%;
+  left: 38.83523941040039%;
+  top: 55.35884433322482%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-3-21 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 43.43839645385742%;
+  top: 56.35033562069848%; }
+
+.box-3-22 {
+  position: absolute;
+  width: 51.24999999999999%;
+  height: 13.690476190476192%;
+  left: 38.83523941040039%;
+  top: 70.63549283951048%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-3-23 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 43.43839645385742%;
+  top: 71.62698412698413%; }
+
+.box-3-24 {
+  position: absolute;
+  width: 51.24999999999999%;
+  height: 13.690476190476192%;
+  left: 38.83523941040039%;
+  top: 85.02154274592324%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-3-25 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 43.43839645385742%;
+  top: 86.01303403339688%; }
+
+.box-4-1 {
+  position: absolute;
+  background: url(../images/bg4.png) center center no-repeat;
+  background-size: cover;
+  -webkit-animation: goBack2 3s linear;
+  -o-animation: goBack2 3s linear;
+  animation: goBack2 3s linear; }
+
+@keyframes goBack2 {
+  from {
+    background-size: 150%,150%;
+    width: 140%;
+    height: 148%; }
+  to {
+    background-size: 105%,105%;
+    width: 100%;
+    height: 100%; } }
+.box-4-2, .box-6-2 {
+  position: absolute;
+  width: 100%;
+  height: 55.35714285714286%;
+  left: 0%;
+  top: -2.7777777777777777%;
+  background: url(../images/water.png) no-repeat;
+  background-size: cover; }
+
+.box-4-3 {
+  position: absolute;
+  width: 94.375%;
+  height: 48.01587301587302%;
+  left: 5.625%;
+  top: -2.4801587301587302%;
+  background: url(../images/fruits.png) no-repeat;
+  background-size: cover; }
+
+.box-4-4 {
+  position: absolute;
+  width: 100%;
+  height: 105.2579365079365%;
+  left: 0.0017642974853515625%;
+  top: -3.3707633851066467%;
+  background: url(../images/beizi5.png) no-repeat;
+  background-size: cover; }
+
+.box-4-5, .box-6-5 {
+  position: absolute;
+  width: 15.625%;
+  height: 14.682539682539684%;
+  left: 0%;
+  top: -2.976190476190476%;
+  background: url(../images/left.png) no-repeat;
+  background-size: cover; }
+
+.box-4-6, .box-6-6 {
+  position: absolute;
+  width: 30.78125%;
+  height: 17.46031746031746%;
+  left: 69.21875%;
+  top: -2.7777777777777777%;
+  background: url(../images/logo2-1.png) no-repeat;
+  background-size: cover; }
+
+.box-4-7 {
+  position: absolute;
+  width: 63.25%;
+  height: 30.357142857142854%;
+  left: 34.28125%;
+  top: 4.365079365079365%;
+  background: url(../images/gclogo.png) no-repeat;
+  background-size: cover; }
+
+.box-4-8 {
+  position: absolute;
+  width: 33.4375%;
+  height: 17.46031746031746%;
+  left: 30.34375%;
+  top: -2.083333333333333%;
+  background: url(../images/yangguang3.png) no-repeat;
+  background-size: cover; }
+
+.box-4-9 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 2.8125%;
+  top: 82.93650793650794%; }
+  .box-4-9 div span {
+    color: #1f4996;
+    font-size: 0.4rem; }
+
+.box-5-5 {
+  position: absolute;
+  width: 80.9375%;
+  height: 92.85714285714286%;
+  left: 11.33523941040039%;
+  top: 9.325962974911645%;
+  background: url(../images/text5.png) no-repeat;
+  background-size: cover; }
+
+.box-5-8 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 3.910694122314453%;
+  top: 16.857474190848215%;
+  font-size: 0.6875rem;
+  text-align: center; }
+
+.box-5-9 {
+  position: absolute;
+  width: 35.3125%;
+  height: 51.587301587301596%;
+  left: 15.39773941040039%;
+  top: 21.825962974911643%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-5-10 {
+  position: absolute;
+  width: 35.3125%;
+  height: auto;
+  left: 14.147739410400389%;
+  top: 23.611677260625928%;
+  text-align: center; }
+  .box-5-10 div {
+    color: #1f4996;
+    font-weight: 400;
+    font-size: 0.46875rem; }
+
+.box-5-11 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 42.50444412231445%;
+  top: 16.8583249288892%;
+  font-size: 0.6875rem;
+  text-align: center; }
+
+.box-5-12 {
+  position: absolute;
+  width: 35.3125%;
+  height: 51.587301587301596%;
+  left: 53.9914894104004%;
+  top: 21.826813712952628%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-5-13 {
+  position: absolute;
+  width: 35.3125%;
+  height: auto;
+  left: 52.74148941040039%;
+  top: 23.612527998666916%;
+  text-align: center; }
+  .box-5-13 div {
+    color: #1f4996;
+    font-weight: 400;
+    font-size: 0.46875rem; }
+
+.box-5-14 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: -0.9375%;
+  top: 74.99324556380984%;
+  font-size: 0.6875rem;
+  text-align: center; }
+
+.box-5-15 {
+  position: absolute;
+  width: 73.125%;
+  height: 18.253968253968253%;
+  left: 16.64773941040039%;
+  top: 79.96088360983228%;
+  background: rgba(1, 155, 211, 0.5); }
+
+.box-5-16 {
+  position: absolute;
+  width: 103.125%;
+  height: auto;
+  left: 19.070510864257812%;
+  top: 82.54024868919736%;
+  text-align: left; }
+  .box-5-16 div {
+    color: #1f4996;
+    font-weight: 400;
+    font-size: 0.46875rem; }
+
+.box-6-1 {
+  position: absolute;
+  background: url(../images/bg6.png) center center no-repeat;
+  background-size: cover;
+  -webkit-animation: goBack2 3s linear;
+  -o-animation: goBack2 3s linear;
+  animation: goBack2 3s linear; }
+
+@keyframes goBack2 {
+  from {
+    background-size: 150%,150%;
+    width: 140%;
+    height: 148%; }
+  to {
+    background-size: 105%,105%;
+    width: 100%;
+    height: 100%; } }
+.box-6-3 {
+  position: absolute;
+  width: 100%;
+  height: 89.38492063492063%;
+  left: 0%;
+  top: -4.563492063492063%;
+  background: url(../images/fruits2.png) center center no-repeat;
+  background-size: cover; }
+
+.box-6-7 {
+  position: absolute;
+  width: 85.625%;
+  height: 47.519841269841265%;
+  left: 0%;
+  top: 9.126984126984127%;
+  background: url(../images/bing3.png); }
+
+.box-6-8 {
+  position: absolute;
+  width: 30.03125%;
+  height: 9.126984126984127%;
+  left: 14.531250000000002%;
+  top: 9.129802764408172%;
+  background: url(../images/pinLogo.png) no-repeat;
+  background-size: cover; }
+
+.box-6-9, .box-6-15 {
+  position: absolute;
+  left: 0.47%;
+  top: 12.00204576764788%;
+  width: 5.625rem;
+  height: 0.5625rem;
+  font-size: 0.5rem;
+  text-align: center;
+  -webkit-transform: rotate(343deg);
+  -moz-transform: rotate(343deg);
+  transform: rotate(343deg); }
+
+.box-6-10 {
+  position: absolute;
+  width: 84.53125%;
+  height: 66.46825396825396%;
+  left: 7.5%;
+  top: 16.698412698412698%;
+  background: url(../images/kuang.png) no-repeat;
+  background-size: 100%; }
+
+.box-6-11 {
+  position: absolute;
+  width: 77.1875%;
+  height: 39.38492063492063%;
+  left: 11.71875%;
+  top: 21.849206349206348%;
+  background: url(../images/shao.png) no-repeat;
+  background-size: 100%; }
+
+.box-6-12 {
+  position: absolute;
+  width: 24.53125%;
+  height: 15.476190476190476%;
+  left: 13.28125%;
+  top: 80.55555555555556%;
+  background: url(../images/ewm.png) no-repeat;
+  background-size: 100%; }
+
+.box-6-13 {
+  position: absolute;
+  width: 72.34375%;
+  height: 19.940476190476193%;
+  left: 17.8125%;
+  top: 46.82539682539682%;
+  background: url(../images/diandan.png) no-repeat;
+  background-size: 100%; }
+
+.box-6-14 {
+  position: absolute;
+  width: 12.65625%;
+  height: 8.73015873015873%;
+  left: 30.15625%;
+  top: 43.154761904761905%;
+  background: url(../images/click.png) no-repeat;
+  background-size: 100%; }
+
+.box-6-15 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 37.43762969970703%;
+  top: 36.20839497399709%;
+  color: #1f4996;
+  font-weight: 400;
+  font-size: 1rem;
+  -webkit-transform: rotate(343deg);
+  -moz-transform: rotate(343deg);
+  transform: rotate(343deg); }
+  .box-6-15 div {
+    position: absolute;
+    left: -0.3125rem; }
+
+.box-6-16 {
+  position: absolute;
+  width: 56.25%;
+  height: auto;
+  left: 36.386871337890625%;
+  top: 83.48643590533544%;
+  color: #1f4996;
+  font-size: 0.5rem;
+  text-align: center; }
+
+/*# sourceMappingURL=app.css.map */

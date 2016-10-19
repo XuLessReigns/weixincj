@@ -1,0 +1,36 @@
+{
+  "name": "Touch",
+  "main": "touch.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gion/touch",
+  "authors": [
+    "Ricardo Sismeiro <ricardo@sismeiro.com>"
+  ],
+  "description": "Touch is a small javascript object that enables touch events, such as: swipe left, swipe right, swipe up, swipe down, pinch in, pinch out, tap and double tap on touch devices.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "touch",
+    "swipe",
+    "finger"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "7355317e62f79dfd777631ff6b0c9586c879bb9d"
+  },
+  "_source": "https://github.com/gion/touch.git",
+  "_target": "^0.0.1",
+  "_originalSource": "touch",
+  "_direct": true
+}
